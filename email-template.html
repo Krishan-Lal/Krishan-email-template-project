@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <!-- bootstrap icons link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- bootstrap style sheet link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="email-temp-styles.css">
+</head>
+<body>   
+    <div class="container-fluid">
+
+<!-- header User picture/greeting/name -->
+        
+        <div class="row">
+            <div class="col-12 header-info">
+                <div class="name mt-2">
+                    <img src="https://i.pinimg.com/originals/30/f2/d4/30f2d47721364e0b74dfe72137e02254.png" alt="User name" width="80px">
+                    Good Afternoon Joe</div>
+            </div>
+        </div>
+
+<!-- first panel Navigation Bar-->
+
+        <div class="row row-height">
+
+<!-- Navigation Bar collapse, hidden on medium and large screen-->
+            <div class="d-sm-none d-md-none d-lg-none col-sm-12 section1">
+                <nav class="navbar navbar-dark">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span> click to expand</span>
+                    </button>
+                </nav>
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <button type="button" class="btn btn-warning">COMPOSE</button><br>
+                    <div class="row"><a class="nav1" href="#"><strong><i class="bi bi-inbox-fill"></i> Inbox (1)</strong></a></div>
+                    <div class="row"><a class="nav1" href="#"><i class="bi bi-collection"></i> Tagged</a></div>
+                    <div class="row"><a class="nav1" href="#"><i class="bi bi-lightning"></i> Important</a></div>
+                    <div class="row"><a class="nav1" href="#"><i class="bi bi-send-fill"></i> Sent Mail</a></div>
+                    <div class="row"><a class="nav1" href="#"><i class="bi bi-textarea-t"></i> Drafts</a></div>
+                    <div class="row"><a class="nav1" href="#"><i class="bi bi-trash3-fill"></i> Trash</a></div>
+                </div>
+            </div>
+
+<!-- Navigation Bar shows on medium and large screen-->
+                <div class="d-none d-sm-block col-sm-3 col-md-3 col-lg-2 section1">
+                    <button type="button" class="btn btn-warning mt-3">COMPOSE</button><br>
+                    <div class="row"><a class="nav1" href="#"><strong><i class="bi bi-inbox-fill"></i> Inbox (1)</strong></a></div>
+                    <div class="row"><a class="nav1" href="#"><i class="bi bi-collection"></i> Tagged</a></div>
+                    <div class="row"><a class="nav1" href="#"><i class="bi bi-lightning"></i> Important</a></div>
+                    <div class="row"><a class="nav1" href="#"><i class="bi bi-send-fill"></i> Sent Mail</a></div>
+                    <div class="row"><a class="nav1" href="#"><i class="bi bi-textarea-t"></i> Drafts</a></div>
+                    <div class="row"><a class="nav1" href="#"><i class="bi bi-trash3-fill"></i> Trash</a></div>
+                </div>
+
+                
+<!-- second panel Email Bar-->
+            <div class="col-sm-9 col-md-9 col-lg-4 section2">
+                <div class="row m-3">
+                <form>
+                    <input class="form-control mb-5" type="search" placeholder="Search for emails" aria-label="Search">
+                  </form>
+                </div>
+                    <!-- email 1 -->
+                <div class="row mail-box m-3">
+                    <div class="col"><strong>Apple</strong></div>
+                    <div class="col d-flex justify-content-end">2:45pm</div>
+                    <div class="row">
+                    <div class="col">New iphone 13</div>
+                    </div>
+                </div>
+                    <!-- email 2 -->
+                <div class="row mail act-email-box m-3 mt-4">
+                    <div class="col"><strong>Microsoft</strong></div>
+                    <div class="col d-flex justify-content-end">28 may 2022</div>
+                    <div class="row">
+                    <div class="col">windows 11 is here</div>
+                    </div>
+                </div>
+                    <!-- email 2 -->
+                <div class="row mail-box m-3 mt-4">
+                    <div class="col"><strong>Facebook</strong></div>
+                    <div class="col d-flex justify-content-end">01 june 2022</div>
+                    <div class="row">
+                    <div class="col">Happy birthday reminder of robert. wish him with $...</div>
+                    </div>
+                </div>
+            </div>
+
+<!-- Third panel Email-Content -->
+            <div class="col-sm-12 col-md-12 col-lg-6 section3">
+                <div class="row m-5">
+                    <div class="col sender-info">To: kris@gmail.com <br>
+                        From: re-reply@microsoft.com
+                    </div>
+                    <div class="row">
+                        <div class="col col-8 mt-3"><h1>Windows 11 is here</h1></div>
+                        <div class="col col-4 d-flex justify-content-end"><i class="bi bi-trash3 icon-size"></i><i class="bi bi-reply icon-size"></i><i class="bi bi-three-dots icon-size"></i></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><br>
+                            Windows 11 is the next client operating system, and includes features that organizations should know. Windows 11 is built on the same foundation as Windows 10. If you use Windows 10, then Windows 11 is a natural transition. It's an update to what you know, and what you're familiar with.
+
+                            It offers innovations focused on enhancing end-user productivity, and is designed to support today's hybrid work environment.
+                            
+                            Your investments in update and device management are carried forward. For example, many of the same apps and tools can be used in Windows 11. Many of the same security settings and policies can be applied to Windows 11 devices, including PCs. You can use Windows Autopilot with a zero touch deployment to enroll your Windows devices in Microsoft Endpoint Manager. You can also use newer features, such as Azure Virtual Desktop and Windows 365 on your Windows 11 devices.
+                            
+                            This article lists what's new, and some of the features & improvements. For more information on what's new for OEMs, see What's new in manufacturing, customization, and design.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <textarea class="form-control area-mrg mt-4" id="exampleFormControlTextarea1" rows="5" placeholder="Type your message"></textarea><br>
+                            <div class="row">
+                                <div class="col"><i class="bi bi-paperclip attachment-pointer"></i></div>
+                                <div class="col d-flex justify-content-end">
+                                <button type="button" class="btn btn-outline-warning">Reply</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
+</body>
+</html>
